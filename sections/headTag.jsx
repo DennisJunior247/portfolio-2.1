@@ -4,11 +4,9 @@ import Head from "next/head";
 export default function HeadTag() {
   return (
     <Head>
-      <title>Dennis Junior---Software Developer</title>
+      <title> Dennis Junior - Software Developer</title>
       <meta name="description" content={`Dennis's portfolio website`} />
       <meta name="keywords" content="Dennis Junior" />
-      <link rel="shortcut icon" href="/favicon.ico" />
-
       <meta property="og:title" content={`Dennis Junior`} />
       <meta property="og:description" content={`Dennis's portfolio website`} />
       <meta property="og:url" content={`https://dennisjunior247.vercel.app/`} />
