@@ -44,8 +44,8 @@ export default function footerSection() {
         </div>
         <p className={styles.copy}>
           Copyright ©
-          <Link href="https://github.com/dennisjunior247">Dennis Junior</Link>
-          {new Date().getFullYear()}, All rights reserved.
+          <Link href="https://github.com/dennisjunior247"> Dennis Junior</Link>
+          <span> {new Date().getFullYear()}</span>, All rights reserved.
         </p>
       </div>
     </footer>
