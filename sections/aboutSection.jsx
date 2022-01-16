@@ -33,9 +33,9 @@ export default function AboutSection() {
             </h5>
             <h2>DENNIS JUNIOR</h2>
             <p>
-              a software developer passionate about building pixel perfect
+              A software developer passionate about building pixel perfect
               interfaces and scalable appications that are easy and simple to
-              use.I have over 2 years of expirence building production ready
+              use. I have over 2 years of expirence building production ready
               appications.
             </p>
 
