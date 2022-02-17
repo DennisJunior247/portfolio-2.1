@@ -1,7 +1,8 @@
 import {} from "react";
 import VideoChat from "../images/videochat.png";
 import Food from "../images/food.png";
-import LF from "../images/lf.png";
+import BitVille from "../images/bitville.png";
+import PhotoProfolio from "../images/nnanna.png";
 import Project from "../component/project";
 import styles from "../styles/portfolio.module.scss";
 
@@ -12,7 +13,6 @@ export default function PortfolioSection() {
         <p className={styles.projects_heading_p}>Featured Projects</p>
         <div className={styles.projects_heading_arrow}></div>
       </div>
-
       <Project
         img={VideoChat}
         name="Video Chat App"
@@ -21,7 +21,6 @@ export default function PortfolioSection() {
         link="https://video-chatapp.vercel.app/"
         github="https://github.com/DennisJunior247/video-chatapp"
       />
-
       <Project
         img={Food}
         name="Food recipie"
@@ -30,14 +29,20 @@ export default function PortfolioSection() {
         link="https://find-your-recipes.vercel.app/"
         github="https://github.com/DennisJunior247/ReactRecipeApp"
       />
-
       <Project
-        img={LF}
-        name="Learn Factory Website"
-        text="Learn Factory Website"
-        tools="FRAMER MOTION, NEXTJS"
-        link="https://learnfactory.com.ng/"
-        // github="https://github.com/ugwustanley/portfolio"
+        img={PhotoProfolio}
+        name="Photographers Profolio "
+        text="A profolio project for a photographer which displays there Images "
+        tools="REACTJS,CSS"
+        link="https://find-your-recipes.vercel.app/"
+        github="https://github.com/DennisJunior247/ReactRecipeApp"
+      />
+      <Project
+        img={BitVille}
+        name="BitVille Website"
+        text="A plateform where crpto courses are solid  "
+        tools="NEXTJS,NODEJS,MONGODB"
+        link="https://bitville.academy/"
       />
     </section>
   );
