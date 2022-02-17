@@ -34,8 +34,8 @@ export default function PortfolioSection() {
         name="Photographers Profolio "
         text="A profolio project for a photographer which displays there Images "
         tools="REACTJS,CSS"
-        link="https://find-your-recipes.vercel.app/"
-        github="https://github.com/DennisJunior247/ReactRecipeApp"
+        link="https://photography-profolio.vercel.app/"
+        github="https://github.com/DennisJunior247/photography-profolio"
       />
       <Project
         img={BitVille}
